@@ -59,6 +59,9 @@ function App() {
 	return (
 		<div className="App">
 			<header className="App-header">
+			<input/>
+			<br/>
+			<inpit/>
 				<p>Google Login Raect/Node/Express</p>
 			</header>
 			<body>
