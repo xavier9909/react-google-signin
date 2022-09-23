@@ -1,0 +1,9 @@
+{
+    "development": {
+        "host": "127.0.0.1:27017",
+        "dbName": "login-db"
+    },
+    "production": {
+        "env-variable": "mongodb+srv://shouvik:M1234@cluster0-yanec.mongodb.net/test?retryWrites=true&w=majority"
+    }
+}
