@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import GoogleLogin from 'react-google-login';
 import axios from 'axios';
 import './App.css';
-import { isEmpty } from 'lodash';
+import { isEmpty, split } from 'lodash';
 
 function App() {
 	const [isLoggedIn, setLoginStatus] = useState(false);
@@ -50,6 +50,11 @@ function App() {
 			}
 			catch (e) {
 				console.log(e);
+				try {
+					
+				} catch (error) {
+					
+				}
 				setLoginStatus(false);
 			}
 		}
@@ -66,12 +71,15 @@ function App() {
 			</header>
 			<body>
 				<GoogleLogin
-					clientId="<--google-client-id-->"
+					clientId=""
 					render={renderProps => (
 						<button className='btn g-sigin'
 							onClick={renderProps.onClick}
 							disabled={renderProps.disabled}
 						>
+						
+						
+						
 							<p>Continue with Google</p>
 						</button>
 					)}

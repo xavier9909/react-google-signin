@@ -22,7 +22,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "PORT=9191 react-scripts start",
+    "start": "PORT=9191 react-scripts  react start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
